@@ -6,7 +6,7 @@ A Streamlit web application that fetches news articles based on a user-provided 
 
 - **Fetch News**: Retrieve news articles from various sources using the News API based on a user-provided query.
 - **Summarize Articles**: Automatically generate concise summaries of news articles with the LLaMA language model.
-- **Categorize Summaries**: Classify summarized content into categories for better organization and quick insights.
+- **Categorize Summaries**: Classify summarized content for better organization and quick insights.
 
 ## Getting Started
 
