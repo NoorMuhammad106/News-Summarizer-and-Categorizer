@@ -31,9 +31,19 @@ Clone the repository and install the necessary dependencies to run the applicati
    ```bash
    git clone https://github.com/yourusername/news-summarizer.git
    cd news-summarizer
-### Create and Activate a Virtual Environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+## Technologies Used
+
+- **Streamlit**: For building the web interface.
+- **LLaMA Model**: For text summarization and categorization.
+- **News API**: For fetching news articles.
+- **Python**: For scripting and integration.
+
+## License
+
+This project is licensed under the MIT License, making it free to use, modify, and distribute.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a pull request or open an issue to improve the project.
 
 
