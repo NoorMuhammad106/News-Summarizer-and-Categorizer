@@ -31,9 +31,10 @@ Clone the repository and install the necessary dependencies to run the applicati
    ```bash
    git clone https://github.com/yourusername/news-summarizer.git
    cd news-summarizer
+
 ## Technologies Used
 
-- **Streamlit**: For building the web interface.
+- **Streamlit**: This is for building the web interface.
 - **LLaMA Model**: For text summarization and categorization.
 - **News API**: For fetching news articles.
 - **Python**: For scripting and integration.
