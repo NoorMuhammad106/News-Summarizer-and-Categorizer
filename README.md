@@ -1,6 +1,6 @@
 # News Summarizer and Categorizer
 
-A Streamlit web application that fetches news articles based on a user-provided topic, summarizes them using the LLaMA language model, and categorizes the summaries into predefined categories such as Technology, Health, Finance, Sports, Entertainment, and Science.
+A Streamlit web application that fetches news articles based on a user-provided topic, summarizes them using the LLaMA language model and categorizes the summaries into predefined categories such as Technology, Health, Finance, Sports, Entertainment, and Science.
 
 ## Features
 
@@ -27,7 +27,13 @@ Clone the repository and install the necessary dependencies to run the applicati
 
 ### Running the Application
 
-1. **Clone the Repository**:
+ **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/news-summarizer.git
    cd news-summarizer
+### Create and Activate a Virtual Environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
