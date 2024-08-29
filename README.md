@@ -30,20 +30,21 @@ Clone the repository and install the necessary dependencies to run the applicati
  **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/news-summarizer.git
-   cd news-summarizer ```
+   cd news-summarizer
+   ```
 
-## Technologies Used
+### Technologies Used
 
 - **Streamlit**: This is for building the web interface.
 - **LLaMA Model**: For text summarization and categorization.
 - **News API**: For fetching news articles.
 - **Python**: For scripting and integration.
 
-## License
+### License
 
 This project is licensed under the MIT License, making it free to use, modify, and distribute.
 
-## Contributing
+### Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue to improve the project.
 
