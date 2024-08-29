@@ -4,24 +4,30 @@ A Streamlit web application that fetches news articles based on a user-provided 
 
 ## Features
 
-- **Fetch News**: Retrieve news articles from various sources using the News API based on a user-provided query.
-- **Summarize Articles**: Automatically generate concise summaries of news articles with the LLaMA language model.
-- **Categorize Summaries**: Classify summarized content for better organization and quick insights.
+- **Fetch News**: Retrieve news articles from various sources using the News API.
+- **Summarize Articles**: Automatically summarize the content of news articles using the LLaMA language model.
+- **Categorize Summaries**: Classify the summarized content into predefined categories for easy organization and analysis.
 
 ## Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+Clone the repository and install the necessary dependencies to run the application locally.
 
-### Prerequisites
+### Setting Up Your Environment
 
-- Python 3.8 or higher
-- [Pip](https://pip.pypa.io/en/stable/) for managing Python packages
+1. **Get a News API Key**: 
+   - Sign up at [News API](https://newsapi.org/register) to get a free API key.
 
-### Installation
+2. **Hide Your API Key**:
+   - Create a file named `.env` in the root directory of the project.
+   - Add your API key to this file with the following format:
+     ```
+     NEWS_API_KEY=your_news_api_key_here
+     ```
+   - The `.env` file is used to store environment variables securely and should **not** be committed to version control. Ensure your `.gitignore` file includes `.env` to keep your API key safe.
 
-1. **Clone the Repository**: 
-   
-   Open your terminal and run the following command:
+### Running the Application
+
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/news-summarizer.git
    cd news-summarizer
