@@ -30,7 +30,7 @@ Clone the repository and install the necessary dependencies to run the applicati
  **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/news-summarizer.git
-   cd news-summarizer
+   cd news-summarizer ```
 
 ## Technologies Used
 
